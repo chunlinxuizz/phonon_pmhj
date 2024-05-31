@@ -354,7 +354,6 @@ class SingleMaterCalculator(Calculator):
 
     @property
     def copy(self):
-        import copy
         return copy.deepcopy(self)
         
     @property
